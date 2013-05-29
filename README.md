@@ -14,8 +14,9 @@ Usage
 =====
 
 <?php
+
 	$spi = new \Spi(0, 0, array(
-	    'speed' => 8000000,
+	    'speed' => 8000000
 	));
 
 	$wiring = new \WiringPi();
